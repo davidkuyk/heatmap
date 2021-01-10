@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Heat Map</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1 id="title">Monthly Global Land-Surface Temperature</h1>
+<h4 id="description">1753 - 2015: base temperature 8.66℃<h4/>
+<div id="tooltip"></div>
+<svg id="canvas"></svg>
+<svg id="legend">
+  <g>
+    <rect x="10" y="0" width="40" height="40" class="legendrect" fill="#338E1B"></rect>
+    <text x="23" y="25" width="40" height="40" class="legendtext">-2</text>
+  </g>
+  <g>
+    <rect x="50" y="0" width="40" height="40" class="legendrect" fill="#60731E"></rect>
+    <text x="63" y="25" class="legendtext">-1</text>
+  </g>
+  <g>
+    <rect x="90" y="0" width="40" height="40" class="legendrect" fill="#D0BE49"></rect>
+    <text x="105" y="25" class="legendtext">0</text>
+  </g>
+  <g>
+    <rect x="130" y="0" width="40" height="40" class="legendrect" fill="#AF5835"></rect>
+    <text x="145" y="25" class="legendtext">1</text>
+  </g>
+  <g>
+    <rect x="170" y="0" width="40" height="40" class="legendrect" fill="#C80000"></rect>
+    <text x="185" y="25" class="legendtext">2</text>
+  </g>
+  <text x="5" y="60" id="legendlegend">Variance from base temperature (C)</text>
+</svg>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/6.3.1/d3.min.js'></script>
+<script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

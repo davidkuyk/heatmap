@@ -1,0 +1,77 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  font-family: Helvetica, sans-serif;
+  background-color: #ADE7F3;
+}
+
+svg {
+  background-color: white;
+}
+
+#canvas {
+  min-height: 600px;
+  min-width: 800px;
+  background-color: #ADE7F3;
+}
+
+#title {
+  font-size: 30px;
+  margin: auto;
+  margin-bottom: 0px;
+  display: block;
+}
+
+#description {
+  display: block;
+  margin: auto;
+}
+
+#legend {
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 240px;
+  height: 70px;
+  padding: 0px;
+  background-color: #ADE7F3;
+}
+
+g {
+  padding: 0px;
+}
+
+text {
+  color: black;
+}
+
+.cell:hover {
+  border: 1px solid black;
+}
+
+.legendtext {
+  x: 60;
+  fill: "white";
+}
+
+#legendlegend {
+  font-size: 13.5px;
+}
+
+#tooltip {
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  height: 60px;
+  color: black;
+  background-color: #ADE7F3;
+  visibility: hidden;
+}
